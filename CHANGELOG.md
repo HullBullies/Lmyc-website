@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.1]
 
+### 2018-03-22
+###$ Changed
+* Added DummyData.cs class - RT
+* Direct users to log in when start up the page - RT
+* Changed Boat Des limit to 600 - RT
+
 ### 2018-03-20
 #### Changed
 * Clean up docker configuration files - JC
