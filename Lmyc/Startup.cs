@@ -51,7 +51,6 @@ namespace Lmyc
                     + $"port={port}; database=lmyc");
                 options.UseOpenIddict();
             });
-
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();

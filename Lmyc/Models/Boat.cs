@@ -23,7 +23,7 @@ namespace Lmyc.Models
         [DisplayName("Boat Photo")]
         public byte[] BoatPicture { get; set; }
 
-        [MaxLength(500, ErrorMessage = "The Description cannot be more than 500 character")]
+        [MaxLength(600, ErrorMessage = "The Description cannot be more than 500 character")]
         [DisplayName("Boat Description")]
         [Required(ErrorMessage = "Please provide a Description.")]
         public string BoatDescription { get; set; }
